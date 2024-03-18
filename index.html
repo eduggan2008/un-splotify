@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Un-Splotify</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="player">
+
+      <div class="player-top">
+        <button class="player-btn" type="button"><i class="fa-solid fa-arrow-left"></i></button>
+        <span>Un-Splotify</span>
+        <button class="player-btn" type="button"><i class="fa-solid fa-ellipsis"></i></button>
+      </div>
+
+      <div class="player-body">
+        <div class="current-song">
+          <div class="cover">
+            <span>Joe Crotty</span>
+            <span>Insiders</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="song-info">
+        <div class="song-details">
+          <span class="song-name">Insiders</span>
+          <span class="song-artist">Joe Crotty</span>
+          
+        </div>
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <div class="song-duration">
+        <div class="song-time">
+          <div class="song-progress">
+            <audio src="music/joe-crotty-insiders.mp3" class="audio"></audio>
+          </div>
+        </div>
+        <div class="time">
+          <span>0:00</span>
+          <span>0:00</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="player-btn" type="button"><i class="fa-solid fa-shuffle"></i></button>
+        <button class="player-btn previous-btn" type="button"><i class="fa-solid fa-backward"></i></button>
+        <button class="player-btn play-pause-btn" type="button"><i class="fa-solid fa-play"></i></button>
+        <button class="player-btn next-btn" type="button"><i class="fa-solid fa-forward"></i></button>
+        <button class="player-btn" type="button"><i class="fa-solid fa-repeat"></i></button>
+      </div>
+
+      <div class="player-footer">
+        <i class="fa-solid fa-music"></i>
+        <span>Listen to Spotify Music</span>
+        <i class="fa-solid fa-list"></i>
+      </div>
+
+      <div class="song-credits">
+        <p>Song Credits:</p>
+        <!-- Insiders by Joe Crotty | https://soundcloud.com/joecrotty
+        Music promoted by https://www.free-stock-music.com
+        Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
+        https://creativecommons.org/licenses/by/3.0/deed.en_US -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
